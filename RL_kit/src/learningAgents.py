@@ -11,6 +11,7 @@
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
+# NAO EDITAR
 
 from game import Directions, Agent, Actions
 
