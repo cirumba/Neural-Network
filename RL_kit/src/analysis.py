@@ -24,6 +24,56 @@ def question2():
     answerNoise = 0.0
     return answerDiscount, answerNoise
 
+
+def question3a():
+    """
+    Prefira a saída próxima (+1), arriscando o penhasco (-10).
+    """
+    answerDiscount = 0.5    
+    answerNoise = 0.0       
+    recompensa = -1 
+    return answerDiscount, answerNoise, recompensa
+
+
+def question3b():
+    """
+    Prefira a saída próxima (+1), mas evitando o penhasco (-10).
+    """
+    answerDiscount = 0.5    
+    answerNoise = 0.2       
+    recompensa = -1 
+    return answerDiscount, answerNoise, recompensa
+
+
+def question3c():
+    """
+    Prefira a saída distante (+10), arriscando o penhasco (-10).
+    """
+    answerDiscount = 0.9    
+    answerNoise = 0.0       
+    recompensa = -2 
+    return answerDiscount, answerNoise, recompensa
+
+
+def question3d():
+    """
+    Prefira a saída distante (+10), evitando o penhasco (-10).
+    """
+    answerDiscount = 0.9    
+    answerNoise = 0.2       
+    recompensa = -0.5 
+    return answerDiscount, answerNoise, recompensa
+
+
+def question3e():
+    """
+    Evite as saídas e o penhasco (portanto, um episódio nunca deve terminar).
+    """
+    answerDiscount = 0.9    
+    answerNoise = 0.0       
+    recompensa = 10 
+    return answerDiscount, answerNoise, recompensa
+
 if __name__ == '__main__':
     print('Answers to analysis questions:')
     import analysis
