@@ -31,8 +31,8 @@ def question3a():
     """
     answerDiscount = 0.5    
     answerNoise = 0.0       
-    recompensa = -1 
-    return answerDiscount, answerNoise, recompensa
+    answerReward = -1 
+    return answerDiscount, answerNoise, answerReward
 
 
 def question3b():
@@ -41,8 +41,8 @@ def question3b():
     """
     answerDiscount = 0.5    
     answerNoise = 0.2       
-    recompensa = -1 
-    return answerDiscount, answerNoise, recompensa
+    answerReward = -1 
+    return answerDiscount, answerNoise, answerReward
 
 
 def question3c():
@@ -51,8 +51,8 @@ def question3c():
     """
     answerDiscount = 0.9    
     answerNoise = 0.0       
-    recompensa = -2 
-    return answerDiscount, answerNoise, recompensa
+    answerReward = -2 
+    return answerDiscount, answerNoise, answerReward
 
 
 def question3d():
@@ -61,8 +61,8 @@ def question3d():
     """
     answerDiscount = 0.9    
     answerNoise = 0.2       
-    recompensa = -0.5 
-    return answerDiscount, answerNoise, recompensa
+    answerReward = -0.5 
+    return answerDiscount, answerNoise, answerReward
 
 
 def question3e():
@@ -71,8 +71,8 @@ def question3e():
     """
     answerDiscount = 0.9    
     answerNoise = 0.0       
-    recompensa = 10 
-    return answerDiscount, answerNoise, recompensa
+    answerReward = 10 
+    return answerDiscount, answerNoise, answerReward
 
 if __name__ == '__main__':
     print('Answers to analysis questions:')
