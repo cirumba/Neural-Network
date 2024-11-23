@@ -74,6 +74,11 @@ def question3e():
     answerReward = 10 
     return answerDiscount, answerNoise, answerReward
 
+def question6():
+    epsilon = 0.1  
+    alpha = 0.5  
+    return epsilon, alpha
+
 if __name__ == '__main__':
     print('Answers to analysis questions:')
     import analysis
